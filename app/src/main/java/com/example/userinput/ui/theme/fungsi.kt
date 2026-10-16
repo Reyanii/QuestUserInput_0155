@@ -55,3 +55,5 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
             }
         )
 
+        Row() {
+            gender.forEach { item ->
