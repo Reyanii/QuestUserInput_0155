@@ -30,4 +30,8 @@ import androidx.compose.ui.unit.dp
 import com.example.userinput.R
 
 @Composable
-fun FormDataDiri(modifier: Modifier = Modifier)
+fun FormDataDiri(modifier: Modifier = Modifier) {
+    var textNama by remember { mutableStateOf("") }
+    var textAlamat by remember { mutableStateOf("") }
+    var textJK by remember { mutableStateOf("") }
+
