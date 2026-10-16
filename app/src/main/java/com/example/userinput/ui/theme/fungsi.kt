@@ -28,7 +28,15 @@ import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.userinput.R
+import androidx.compose.ui.tooling.preview.Preview
 
+@Preview(showBackground = true)
+@Composable
+fun FormDataDiriPreview() {
+    UserInputTheme {
+        FormDataDiri()
+    }
+}
 @Composable
 fun FormDataDiri(modifier: Modifier = Modifier) {
     var textNama by remember { mutableStateOf("") }
