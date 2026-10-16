@@ -29,4 +29,5 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.example.userinput.R
 
-}
+@Composable
+fun FormDataDiri(modifier: Modifier = Modifier)
